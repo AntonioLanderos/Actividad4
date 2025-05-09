@@ -15,7 +15,7 @@ import turtle
 from freegames import floor, vector
 
 state = {'score': 0}
-path   = turtle.Turtle(visible=False)
+path = turtle.Turtle(visible=False)
 writer = turtle.Turtle(visible=False)
 aim = vector(5, 0)
 pacman = vector(-40, -80)
